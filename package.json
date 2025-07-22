@@ -2,7 +2,7 @@
   "name": "scrollytelling",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://sweetnsour2.github.io/scrollytelling-project" ,
+  "homepage": "https://SweetnSour2.github.io/scrollytelling-project" ,
   "type": "module",
   "scripts": {
     "build": "vite build",
