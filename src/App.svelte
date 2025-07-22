@@ -103,10 +103,9 @@
 
     <ScrollObserver id={2} onEnter={onStepEnter}>
       <section in:fade={{ duration: 500 }}>
-        <h2>Trends Over Time (2015-2020)</h2>
+        <h2>Trends Over Time 2023</h2>
         <p>
-          Over the past several years, some groups have seen growth in business ownership, while others have faced
-          stagnation or decline. These trends reflect broader economic and social factors affecting entrepreneurship.
+          This bar chart would clearly show that, among the listed regions, Georgia had the highest number of Black employer firms in 2023, significantly more than the other states/regions shown.
         </p>
       </section>
     </ScrollObserver>
@@ -124,9 +123,9 @@
 
   <div class="sticky-chart">
     {#if activeStep === 1}
-      <BarChart src="/images/emp.png" alt="Number of Employer Firms by Race/Ethnicity" />
+      <BarChart src="emp.png" alt="Number of Employer Firms by Race/Ethnicity" />
     {:else if activeStep === 2}
-      <LineChart data={lineData} />
+      <LineChart src="chart.png" alt="Number of Employer Firms by Race/Ethnicity" />
     {:else}
       <p style="font-size: 1.3rem; color: #888;">Scroll through the story to explore the data.</p>
     {/if}
