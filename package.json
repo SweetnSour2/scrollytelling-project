@@ -2,11 +2,15 @@
   "name": "scrollytelling",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://SweetnSour2.github.io/scrollytelling-project" ,
+  "homepage": "https://SweetnSour2.github.io/scrollytelling-project",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-  }
+  },
+  "dependencies": {
+    "chart.js": "^4.x.x"
+}
 }
