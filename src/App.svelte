@@ -103,7 +103,7 @@
 
     <ScrollObserver id={2} onEnter={onStepEnter}>
       <section in:fade={{ duration: 500 }}>
-        <h2>Trends Over Time 2023</h2>
+        <h2>Trends Over 2023</h2>
         <p>
           This bar chart would clearly show that, among the listed regions, Georgia had the highest number of Black employer firms in 2023, significantly more than the other states/regions shown.
         </p>
@@ -123,9 +123,9 @@
 
   <div class="sticky-chart">
     {#if activeStep === 1}
-      <BarChart src="emp.png" alt="Number of Employer Firms by Race/Ethnicity" />
+      <BarChart src="C:\Users\norah\code\scrollytelling\static\images/emp.png" alt="Number of Employer Firms by Race/Ethnicity" />
     {:else if activeStep === 2}
-      <LineChart src="chart.png" alt="Number of Employer Firms by Race/Ethnicity" />
+      <LineChart src="C:\Users\norah\code\scrollytelling\static\images/chart.png" alt="Number of Employer Firms by Race/Ethnicity" />
     {:else}
       <p style="font-size: 1.3rem; color: #888;">Scroll through the story to explore the data.</p>
     {/if}

@@ -1,5 +1,5 @@
 <script>
-  export let src = 'chart.png';
+  export let src = 'C:\Users\norah\code\scrollytelling\static\images/chart.png';
   export let alt = 'Chart image';
 </script>
 
