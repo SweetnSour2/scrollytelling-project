@@ -61,4 +61,3 @@
   });
 </script>
 
-<canvas bind:this={canvas} style="max-width: 100%; height: 350px;"></canvas>
