@@ -98,7 +98,6 @@
           This chart shows the total number of employer firms owned by different racial and ethnic groups.
           The disparities highlight systemic barriers that limit wealth building in minority communities.
         </p>
-        <img src="C:\Users\norah\Downloads\Dashboard - Business Ownership - Section 1.2 (1).png" alt="Employer Firms by Race/Ethnicity" style="max-width: 100%; height: auto;" />
       </section>
     </ScrollObserver>
 
@@ -125,7 +124,7 @@
 
   <div class="sticky-chart">
     {#if activeStep === 1}
-      <BarChart data={barData} />
+      <BarChart src="/images/emp.png" alt="Number of Employer Firms by Race/Ethnicity" />
     {:else if activeStep === 2}
       <LineChart data={lineData} />
     {:else}
